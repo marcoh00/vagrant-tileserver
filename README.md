@@ -12,6 +12,7 @@ You can use any map viewer like [leaflet](http://leafletjs.com/) now to view the
 In case you don't want to use the default settings, create a file named "settings.source" in the top directory (the one containing "Vagrantfile") and put your configuration options in there.
 
 The following sample configuration represents the default options:
+
     export OSM_CARTO_CLONE_URL="https://github.com/gravitystorm/openstreetmap-carto.git"
     export MOD_TILE_CLONE_URL="https://github.com/openstreetmap/mod_tile.git"
     export MOD_TILE_DEST_PATH="/tmp/mod_tile"
