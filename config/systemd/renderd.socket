@@ -1,0 +1,10 @@
+[Unit]
+Description=renderd daemon for rendering openstreetmap tiles
+Before=renderd.service
+Conflicts=renderd.service
+
+[Socket]
+ListenSequentialPacket=/var/run/renderd/renderd.sock
+
+[Install]
+WantedBy=sockets.target

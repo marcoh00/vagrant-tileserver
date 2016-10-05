@@ -1,0 +1,10 @@
+[Unit]
+Description=renderd daemon for rendering openstreetmap tiles
+After=network.target auditd.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/renderd -f -c /usr/etc/renderd.conf
+
+[Install]
+WantedBy=multi-user.target

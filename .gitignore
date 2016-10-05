@@ -1,0 +1,4 @@
+*.osm.pbf
+*.tar.xz
+*.log
+settings.source
